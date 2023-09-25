@@ -1,11 +1,6 @@
+@import 'sass/_universal';
 @import 'sass/_variables';
 @import 'sass/_navbar';
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   background-image: url(multimedia/main.jpg);
@@ -19,40 +14,82 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
-  font-size: 10px;
-  font-family: "Poppins", sans-serif;
+  font-size: $size2;
+  font-family: $font1;
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.6392156863);
-  border-radius: 5px;
+  background-color: $color1;
+  border-radius: $size1;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.405);
-  margin-top: 30px;
-  border-radius: 15px;
+  margin-top: $size6;
+  border-radius: $size3;
 }
 
 .card img {
-  max-width: 100%;
+  max-width: $high;
   border-radius: 15px;
-  padding: 5px;
+  padding: $size1;
 }
 
 .card-content {
-  padding: 15px;
+  padding: $size3;
+
+    .card-content h1 {
+      font-size: $size5;
+      font-weight: bold;
+      color: $color2;
+      white-space: nowrap;
+      margin-left: -10px;
+      text-align: center;
+    
+        .card-content p {
+          font-size: 12px;
+          line-height: 1.7;
+    }
+  }
 }
 
-.card-content h1 {
-  font-size: 25px;
-  font-weight: bold;
-  color: rgba(22, 123, 63, 0.689);
-  white-space: nowrap;
-  margin-left: -10px;
-  text-align: center;
-}
+.alimentos .card-container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  font-size: 10px;
+  font-family: $font1;
 
-.card-content p {
-  font-size: 12px;
-  line-height: 1.7;
+  .card {
+    background-color: $color1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.405);
+    margin-top: 30px;
+    border-radius: 5px 5px 0 0;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px 5px 0 0;
+
+      .card-content {
+        padding: 20px;
+
+        h1 {
+          font-size: 20px;
+          font-weight: bold;
+          color: $color2;
+          text-align: center;
+          white-space: nowrap;
+          margin-bottom: 5%;
+          p {
+            font-size: 30px;
+            line-height: 1.7;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
 }
 
 .card-3 img {
@@ -67,46 +104,4 @@ body {
   height: 183px;
 }
 
-.alimentos .card-container {
-  width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 60px;
-  font-size: 10px;
-  font-family: "Poppins", sans-serif;
-}
-
-.alimentos .card {
-  background-color: rgba(255, 255, 255, 0.3568627451);
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.405);
-  margin-top: 30px;
-  border-radius: 5px 5px 0 0;
-}
-
-.alimentos .card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px 5px 0 0;
-}
-
-.alimentos .card-content {
-  padding: 20px;
-}
-
-.alimentos .card-content h1 {
-  font-size: 20px;
-  font-weight: bold;
-  color: rgba(22, 123, 63, 0.689);
-  text-align: center;
-  white-space: nowrap;
-  margin-bottom: 5%;
-}
-
-.alimentos .card-content p {
-  font-size: 30px;
-  line-height: 1.7;
-  text-align: center;
-}
   @import 'sass/_mediaqueries';
