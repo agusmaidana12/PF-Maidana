@@ -1,0 +1,22 @@
+.redes{
+    font-size: 30px;
+    float:left;
+    display: block;
+    margin-top: -420px;
+    margin-left: -20px;
+}
+
+.redes a{
+    color: rgba(20, 62, 23, 0.809);
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+}
+
+.redes a:hover{
+    color:rgba(20, 62, 23, 0.809);
+    transform: scale(1.4);
+    transition: transform 0.3s ease-in-out;
+}
+

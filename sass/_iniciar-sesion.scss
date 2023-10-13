@@ -1,0 +1,68 @@
+
+.form-login{
+    float: right;
+    width: 300px;
+    background-color: rgba(22, 152, 22, 0.178);
+    padding: 30px;
+    margin-top: 80px;
+    margin-right: 550px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:rgb(6, 1, 1);
+    border: rgba(0, 128, 0, 0.219) solid 1px
+}
+
+.form-login h4{
+    font-size: 180%;
+    margin-bottom: 20px;
+    font-family: 'Roboto Flex', sans-serif; 
+    color: rgb(57, 53, 53);
+}
+
+.form-login .controls{
+    width: 100%;
+    background-color: rgba(2, 19, 2, 0.026);
+    padding:5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 18px;
+    border: 1px solid green
+}
+
+.form-login p{
+    height:30px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.form-login a{
+    text-decoration: none;
+    color: rgb(57, 53, 53);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form-login .botons{
+    font-size: 14px;
+
+}
+
+.login{
+    border: 0;
+    background: transparent;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: $size3;
+    padding: 2px;
+    font-family: $font1;
+    background: transparent;
+    color: rgb(0, 156, 0)
+}
+
+.login:hover a{
+    background-color: rgba(1, 176, 1, 0.13);
+    border-radius: 10px;
+}

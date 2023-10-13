@@ -2,10 +2,29 @@
     .card-container {
       grid-template-columns: repeat(2, 1fr);
     }
-    .alimentos .card-container {
+    .alimentos .card-container{
       grid-template-columns: repeat(2, 1fr);
     }
-  }
+    .cosmetica .card-container{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .eco-sustentable .card-container{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .redes{
+      font-size: 30px;
+      float:left;
+      display: block;
+      margin-top: -1500px;
+      margin-left: -20px;
+    }
+
+    .form-login{
+      float: center;
+      margin-right: 80px;
+    }
+}
+  
   @media screen and (max-width: 600px) {
     .card-container {
       grid-template-columns: 1fr;
@@ -13,7 +32,24 @@
     .alimentos .card-container {
       grid-template-columns: 1fr;
     }
+    .cosmetica .card-container{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .eco-sustentable .card-container{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .redes{
+      font-size: 30px;
+      float:left;
+      display: block;
+      margin-top: -1500px;
+      margin-left: -20px;
   }
+    .form-login{
+    float: center;
+    margin-right: 80px;
+  }
+}
 
 
 

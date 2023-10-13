@@ -1,14 +1,16 @@
 @import 'sass/_variables';
 @import 'sass/_navbar';
-@import 'sass/universal';
-@import 'sass/mixins';
-
-
+@import 'sass/_universal';
+@import 'sass/_mixins';
+@import 'sass/iniciar-sesion';
+@import 'sass/registrarse';
+@import 'sass/redes';
 body {
   background-image: url(multimedia/main.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .card-container {
   width: 70%;
@@ -95,6 +97,10 @@ body {
     }
 }
 
+.sesion{
+  margin-left: 450px;
+  margin-top: -60px;
+}
 
 .alimentos .card-content {
   padding: $size4;

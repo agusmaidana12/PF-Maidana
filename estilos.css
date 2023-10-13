@@ -32,13 +32,187 @@
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.form-login {
+  float: right;
+  width: 300px;
+  background-color: rgba(22, 152, 22, 0.178);
+  padding: 30px;
+  margin-top: 80px;
+  margin-right: 550px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: rgb(6, 1, 1);
+  border: rgba(0, 128, 0, 0.219) solid 1px;
+}
+
+.form-login h4 {
+  font-size: 180%;
+  margin-bottom: 20px;
+  font-family: "Roboto Flex", sans-serif;
+  color: rgb(57, 53, 53);
+}
+
+.form-login .controls {
+  width: 100%;
+  background-color: rgba(2, 19, 2, 0.026);
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
+  border: 1px solid green;
+}
+
+.form-login p {
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.form-login a {
+  text-decoration: none;
+  color: rgb(57, 53, 53);
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-login .botons {
+  font-size: 14px;
+}
+
+.login {
+  border: 0;
+  background: transparent;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 2px;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  color: rgb(0, 156, 0);
+}
+
+.login:hover a {
+  background-color: rgba(1, 176, 1, 0.13);
+  border-radius: 10px;
+}
+
+.signup {
+  border: 0;
+  background: transparent;
+}
+
+.signup a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 2px;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  color: rgb(0, 156, 0);
+}
+
+.signup:hover a {
+  background-color: rgba(1, 176, 1, 0.13);
+  border-radius: 10px;
+}
+
+.registro .titulo a {
+  color: rgba(22, 123, 63, 0.689);
+  float: right;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 2%;
+  margin-right: 40px;
+  background-color: rgba(57, 242, 57, 0.322);
+  padding: 0.5%;
+  border: rgba(9, 111, 43, 0.159) solid 2px;
+  text-decoration: none;
+}
+
+.registro .titulo a:hover {
+  color: rgb(37, 100, 37);
+}
+
+.form-register {
+  float: right;
+  width: 300px;
+  background-color: rgba(22, 152, 22, 0.178);
+  padding: 30px;
+  margin-right: 550px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: rgb(6, 1, 1);
+  border: rgba(0, 128, 0, 0.219) solid 1px;
+  margin-top: 47px;
+}
+
+.form-register h4 {
+  font-size: 180%;
+  margin-bottom: 20px;
+  font-family: "Roboto Flex", sans-serif;
+  color: rgb(57, 53, 53);
+}
+
+.form-register .controls {
+  width: 100%;
+  background-color: rgba(2, 19, 2, 0.026);
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
+  border: 1px solid green;
+}
+
+.form-register p {
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-register a {
+  text-decoration: none;
+  color: rgb(57, 53, 53);
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-register .botons {
+  font-size: 14px;
+}
+
+.redes {
+  font-size: 30px;
+  float: left;
+  display: block;
+  margin-top: -420px;
+  margin-left: -20px;
+}
+
+.redes a {
+  color: rgba(20, 62, 23, 0.809);
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  display: block;
+}
+
+.redes a:hover {
+  color: rgba(20, 62, 23, 0.809);
+  transform: scale(1.4);
+  transition: transform 0.3s ease-in-out;
 }
 
 body {
@@ -129,6 +303,11 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
+.sesion {
+  margin-left: 450px;
+  margin-top: -60px;
+}
+
 .alimentos .card-content {
   padding: 20px;
 }
@@ -182,6 +361,23 @@ footer p {
   .alimentos .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .cosmetica .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .eco-sustentable .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .redes {
+    font-size: 30px;
+    float: left;
+    display: block;
+    margin-top: -1500px;
+    margin-left: -20px;
+  }
+  .form-login {
+    float: center;
+    margin-right: 80px;
+  }
 }
 @media screen and (max-width: 600px) {
   .card-container {
@@ -189,6 +385,23 @@ footer p {
   }
   .alimentos .card-container {
     grid-template-columns: 1fr;
+  }
+  .cosmetica .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .eco-sustentable .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .redes {
+    font-size: 30px;
+    float: left;
+    display: block;
+    margin-top: -1500px;
+    margin-left: -20px;
+  }
+  .form-login {
+    float: center;
+    margin-right: 80px;
   }
 }
 
